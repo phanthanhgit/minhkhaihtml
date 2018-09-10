@@ -1,0 +1,252 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    color: #666;
+    min-width: 1024px;
+    max-width: 1024px;
+    position: relative;
+    min-height: 100%;
+    padding: 20px;
+}
+.logo {
+    width: 200px;
+    float: left;
+}
+.select-lang {
+    width: 200px;
+}
+.select-lang select {
+    width: 200px;
+}
+.top-header {
+    width: 1024px;
+    display: inline-block;
+}
+.toolnav {
+    width:100%;
+    float:left; 
+    max-width:800px;
+    min-width:800px;
+    text-align: right;
+}
+.topnav{
+	    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+.topnav li {
+    padding-right: 30px;
+    text-align: center;
+    display: inline-block;
+}
+.linkitem a{
+    color: #333;
+    text-decoration: none;
+}
+.nav-header {
+    width: 1024px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav {
+    width: 1024px;
+    list-style: none;
+}
+.nav li {
+    font-weight: bold;
+    font-size: 14px;
+    float: left;
+    letter-spacing: -1px;
+    background: #6d2524;
+}
+.nav li + li {
+    border-left: 1px solid #fff;    
+}
+.nav li a {
+    text-decoration: none;
+    padding: 8px 15px;
+    display: block;
+    color: #fff;
+}
+.nav li.actived {
+    background: #00918e;
+}
+.nav li:hover {
+    background: #D9BCBC;
+}
+.main {
+    width: 100%;
+}
+.col-left {
+    width: 20%;
+    float: left;
+    padding-top: 10px;
+}
+.col-right {
+    width: 80%;
+    float: left;
+    padding-top: 5px;
+}
+.dropdown-shop {
+    position: relative;
+    cursor: pointer;
+}
+.dropdown-shop p {
+    margin-bottom: 10px;
+}
+.popup-shop {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    width: 200px;
+    border: 1px solid black;
+    border-top-width: 8px;
+    background: #fff;
+    visibility: hidden;
+    z-index: 999;
+}
+.popup-shop a {
+    width: 100%;
+    display: inherit;
+    padding: 2px 4px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: #000;
+}
+.popup-shop a:hover {
+    text-decoration: none;
+    background: #6D2524;
+    color: #fff;
+}
+.dropdown-shop:hover .popup-shop{
+    visibility: visible;
+}
+.cat-menu {
+    padding: 0 5px;
+}
+.cat-menu a {
+    display: block;
+    padding: 2px 4px;
+    color: black;
+    border-bottom: 1px solid black;
+}
+.cat-menu a:hover {
+    text-decoration: none;
+    background: #00918E;
+    color: #fff;
+}
+.sub-menu {
+    display: none;
+}
+.sub-menu a {
+    text-indent: 20px;
+}
+.search-bar {
+    display: inline-block;
+    width: 100%;
+    padding-left: 70px;
+}
+.search-bar span {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right:10px;
+}
+.search-bar .search-form {
+    display: block;
+    float: left;
+    padding: 2px;
+    border: 1px solid #6D2524;
+    border-radius: 4px;
+}
+.search-form #main-ip-search{
+    width: 250px;
+    border: 0px;
+}
+.search-form #main-btn-search {
+    background: #6D2524;
+    border: 0px;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.search-cat {
+    float: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+.search-cat select {
+    height: 24px;
+    width: 250px;
+}
+.list-cat {
+
+}
+.listcat-header {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.listcat-header h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+    padding: 5px;
+    background: #6D2524;
+    color: #fff;
+}
+.listcat-header a{
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+}
+.listcat-body {
+    padding: 0 5px;
+    border-top: 1px dotted #d6d6d6;
+}
+.item-list-cat .buynow-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.item-list-cat .buynow-btn img + img {
+    margin-left: 5px;
+}
+.item-list-cat .book-title {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
+.item-list-cat .book-title a {
+    color: #000;
+}
+.item-list-cat .book-title a:hover {
+    background: #6D2524;
+    color: #fff;
+}
+#sm-menu {
+    display: block; 
+    width: 100%; 
+    text-transform: unset; 
+    background: #F4EFEF; 
+    color: #000;
+}
+#sm-menu a{
+    color: #000;
+}
+#sm-menu a:hover {
+    background: #6D2524;
+    color: #fff;
+}
+.wg-title {
+    display: initial;
+    padding: 5px;
+    background: #6D2524;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
