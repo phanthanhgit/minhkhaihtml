@@ -1,6 +1,6 @@
 # [minhkhaihtml](https://github.com/phanthanhgit/minhkhaihtml)
 MinhKhaiStoreHTML
-* Project: [github.com/phanthanhgit/easythemeblog](https://github.com/phanthanhgit/minhkhaihtml)
+* Project: [github.com/phanthanhgit/minhkhaihtml](https://github.com/phanthanhgit/minhkhaihtml)
 * Website: [phanthanhblog.com](https://phanthanhblog.com)
 * Facebook: [@Phan Thanh](https://fb.com/phanthanh.coder)
 * Author : [Doan Phan Thanh](http://phanthanhblog.com)
